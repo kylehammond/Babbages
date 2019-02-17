@@ -49,13 +49,23 @@
   <ItemGroup>
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Data\Migrations\Configuration.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\Allocation.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\FinancialInstitution.cs" />
+    <Compile Include="Entities\PayStub.cs" />
+    <Compile Include="Entities\PayStubItem.cs" />
+    <Compile Include="Entities\PayStubItemType.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\ValueAssumption.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Todo.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

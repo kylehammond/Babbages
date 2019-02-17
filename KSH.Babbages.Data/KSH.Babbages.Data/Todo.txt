@@ -1,0 +1,12 @@
+﻿Todo
+- Create create/update base code
+- Create relationship configurations
+- Create repositories/uow
+- Validation
+- Web stuff
+
+Complete
+- Create project
+- Set up EF
+- Set up base entity
+- set up starting entities
