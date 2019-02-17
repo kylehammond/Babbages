@@ -49,14 +49,13 @@
   <ItemGroup>
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Data\Migrations\Configuration.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
