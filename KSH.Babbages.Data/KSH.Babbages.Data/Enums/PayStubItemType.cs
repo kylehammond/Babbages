@@ -1,4 +1,4 @@
-﻿namespace KSH.Babbages.Entities
+﻿namespace KSH.Babbages.Enums
 {
     public enum PayStubItemType
     {

@@ -1,4 +1,6 @@
-﻿namespace KSH.Babbages.Entities
+﻿using KSH.Babbages.Enums;
+
+namespace KSH.Babbages.Entities
 {
     public class PayStubItem : BaseEntity
     {
