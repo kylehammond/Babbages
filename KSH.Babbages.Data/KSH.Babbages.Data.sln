@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSH.Babbages.Data", "KSH.Babbages.Data\KSH.Babbages.Data.csproj", "{06435C53-E322-4F6A-8DB3-375EBE6A78DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSH.Babbages", "KSH.Babbages.Data\KSH.Babbages.csproj", "{06435C53-E322-4F6A-8DB3-375EBE6A78DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
