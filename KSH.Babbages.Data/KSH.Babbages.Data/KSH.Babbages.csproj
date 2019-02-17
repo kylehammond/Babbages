@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\AppDbContext.cs" />
+    <Compile Include="Data\Configurations\Configurations.cs" />
     <Compile Include="Data\Migrations\Configuration.cs" />
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Allocation.cs" />
@@ -57,7 +58,7 @@
     <Compile Include="Entities\PayStubItem.cs" />
     <Compile Include="Entities\PayStubItemType.cs" />
     <Compile Include="Entities\Person.cs" />
-    <Compile Include="Entities\ValueAssumption.cs" />
+    <Compile Include="Entities\Assumption.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -67,5 +68,6 @@
   <ItemGroup>
     <Content Include="Todo.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
