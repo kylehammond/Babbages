@@ -7,5 +7,7 @@ namespace KSH.Babbages.Entities
         public PayStubItemType Type { get; set; }
         public string Description { get; set; }
         public decimal Amount { get; set; }
+        public PayStub PayStub { get; set; }
+        public int PayStubId { get; set; }
     }
 }
