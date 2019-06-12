@@ -74,6 +74,5 @@
   <ItemGroup>
     <Content Include="Todo.txt" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

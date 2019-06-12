@@ -7,7 +7,8 @@ namespace KSH.Babbages.Data.Configurations
     {
         public AccountEntityConfiguration()
         {
-
+            HasRequired(a => a.FinancialInstitution)
+                .WithMany(f => f.Accounts);
         }
     }
 }

@@ -4,6 +4,7 @@
     {
         public Person PrimaryAccountHolder { get; set; }
         public Person JointAccountHolder { get; set; }
+        public int FinancialInstitutionId { get; set; }
         public FinancialInstitution FinancialInstitution { get; set; }
     }
 }

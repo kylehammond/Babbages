@@ -3,7 +3,7 @@ using KSH.Babbages.Entities;
 
 namespace KSH.Babbages.Data.Configurations
 {
-    public class AssumptionEntityConfiguration : EntityTypeConfiguration<Account>
+    public class AssumptionEntityConfiguration : EntityTypeConfiguration<Assumption>
     {
         public AssumptionEntityConfiguration()
         {
